@@ -1,0 +1,10 @@
+<Context>
+
+  <Resource name="jdbc/web_book_tracker" 
+  			auth="Container" type="javax.sql.DataSource"
+            maxActive="20" maxIdle="5" maxWait="10000"
+            username="u_book" password="u_book" 
+            driverClassName="com.mysql.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/web_book_tracker?useSSL=false"/>
+
+</Context>
